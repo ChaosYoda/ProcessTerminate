@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{8AECE3A3-9E18-4314-95DE-8E2CA0DB795F}</ProjectGuid>
+    <ProjectGuid>{04FAE71D-11CF-413B-9FA9-9B0B5F0D5FA1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ProcessKill</RootNamespace>
+    <RootNamespace>ProcessTerminate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -153,7 +153,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ProcessKill.cpp" />
+    <ClCompile Include="ProcessTerminate.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
